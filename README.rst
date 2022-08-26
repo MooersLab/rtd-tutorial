@@ -1,11 +1,16 @@
-Template for the Read the Docs tutorial
-=======================================
+Blaine's Read-the-Docs Tutorial
+===============================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Log into into your read the docs account.
+Then import your new project from a GitHub repo
+or select an existing project.
 
 You can edit the README.st document on GitHub and then
-you have to go through several steps:
+you have to go through a number of steps. It is probably
+best to prepare the bulk of the docment in an editor
+that is configured for handling ReStructuredText files. 
+Otherwise, you will get a alot of practice cycling 
+through the following steps:
 
 - Add a commit message.
 - Click on 'Create a new branch for this commit and start a pull request'. 
