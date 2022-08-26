@@ -37,7 +37,17 @@ y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\beta & \\sim \\operatorname{Normal}(0,1) \\\\
 \\sigma & \\sim \\operatorname{Exponential}(1)
 \\end{aligned}
-   :label: eq:pfx
+   :label: pfx
+
+
+.. math::
+  \begin{align}
+        100 + x &= y    \\    
+        \frac{y}{x} &\ge 1.3  \\
+        (100+x)-(100+x)z &= y 
+  \end{align}
+  :label: abc
+
 
 Read Blaine's tutorial on readthedocs here:
 
