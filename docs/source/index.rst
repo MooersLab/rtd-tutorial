@@ -3,7 +3,7 @@ Blaine's Read-the-Docs Tutorial
 
 Log into into your Read-the-Docs account.
 Then import your new project from a GitHub repo
-or select an existing project.
+or select an existing project.                                                                                                                                                                           
 
 You can edit the `~/docs/source/index.rst` document on GitHub and then
 you have to go through a number of steps. It is probably
@@ -25,17 +25,28 @@ If you hit `commit changes` in step 2, just make another edit and hit
 'Create a new branch for this commit and start a pull request'. 
 
 The document is written in ReStructuredText (.rst), 
-which takes LaTeX multi-line equations in special math blocks.
+which takes LaTeX multi-line equations   in special math blocks.
 The backslashes have to to escaped and the double $$ removed.
 
 
-.. math:: \beta \sim \text{Poisson}(\lambda=5)
-  :label: beta_prior
+ .. math::
+   :nowrap:
+
+   \begin{eqnarray}
+      y    & = & ax^2 + bx + c \\
+      f(x) & = & x^2 + 2xy + y^2
+   \end{eqnarray}
+           
+Here is a single line equation.    
+
+ .. math:: \beta \sim \text{Poisson}(\lambda=5)
+ :label: beta_prior 
 
 
 An aligned multiple-line display expression follows:
 
-.. math::
+ .. math::    
+ :label: pfx
 \\begin{aligned}
 y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\mu_{i} &=\\alpha+\\beta x_{i} \\\\
@@ -43,20 +54,20 @@ y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\beta & \\sim \\operatorname{Normal}(0,1) \\\\
 \\sigma & \\sim \\operatorname{Exponential}(1)
 \\end{aligned} 
-   :label: pfx
+
 
 
 An aligned multiple-line display expression follows:
 
 
-.. math::
-
+ .. math::
+ :label: abc
 \\begin{aligned}
 100 + x &= y    \\\\    
 \\frac{y}{x} &\\ge 1.3  \\\\
 (100+x)-(100+x)z &= y 
 \\end{aligned}
-  :label: abc
+
 
 
 Read Blaine's tutorial on readthedocs here:
@@ -68,14 +79,14 @@ Read the readthedocs tutorial here:
 https://docs.readthedocs.io/en/stable/tutorial/
 
 
-.. note::
+ .. note::
 
    This project is under active development.
 
 Contents
 --------
 
-.. toctree::
+ .. toctree::
 
    usage
    api
