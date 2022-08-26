@@ -41,9 +41,9 @@ y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 
 .. math::
 \\begin{aligned}
-        100 + x &= y    \\\\    
-        \\frac{y}{x} &\\ge 1.3  \\\\
-        (100+x)-(100+x)z &= y 
+     100 + x &= y    \\\\    
+     \\frac{y}{x} &\\ge 1.3  \\\\
+     (100+x)-(100+x)z &= y 
   \\end{aligned}
  :label: abc
 
