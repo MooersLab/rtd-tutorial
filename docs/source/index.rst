@@ -29,6 +29,7 @@ which takes LaTeX multi-line equations in special math blocks.
 The backslashes have to to escaped and the double $$ removed.
 
 .. math::
+  :label: eq:pfx
 
 \\begin{aligned}
 y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
@@ -37,9 +38,13 @@ y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\beta & \\sim \\operatorname{Normal}(0,1) \\\\
 \\sigma & \\sim \\operatorname{Exponential}(1)
 \\end{aligned}
+  
 
+Read Blaine's tutorial on readthedocs here:
 
-Read the tutorial here:
+https://mooerslab-rtd-tutorial-main.readthedocs.io/en/latest/
+
+Read the readthedocs tutorial here:
 
 https://docs.readthedocs.io/en/stable/tutorial/
 
