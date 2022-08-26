@@ -21,6 +21,9 @@ chance of making mistakes and learning from them, :octocat: :
 - Navigate to the github repo page. The text will be updated but not the math.
 - Click on the browser's refresh button to get MathJax to render the equations.
 
+If you hit `commit changes` in step 2, just make another edit and hit 
+'Create a new branch for this commit and start a pull request'. 
+
 The document is written in ReStructuredText (.rst), 
 which takes LaTeX multi-line equations in special math blocks.
 The backslashes have to to escaped and the double $$ removed.
