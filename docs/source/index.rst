@@ -39,10 +39,8 @@ The backslashes have to to escaped and the double $$ removed.
            
 Here is a single line equation.    
 
- .. math:: 
-     :label: beta_prior 
- \\beta \\sim \\text{Poisson}(\\lambda=5)
-
+ .. math:: \\beta \\sim \\text{Poisson}(\\lambda=5)
+ 
 An aligned multiple-line display expression follows:
 
  .. math::    
@@ -56,9 +54,7 @@ y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\end{aligned} 
 
 
-
 An aligned multiple-line display expression follows:
-
 
  .. math::
  :label: abc
