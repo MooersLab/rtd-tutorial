@@ -6,6 +6,10 @@ with some basic Sphinx docs.
 
 Lumache has its documentation hosted on Read the Docs.
 
+The document is written in ReStructuredText (.rst), 
+which takes LaTeX multi-line equations in special math blocks.
+The backslashes have to to escaped and the double $$ removed.
+
 .. math::
 
 \\begin{aligned}
