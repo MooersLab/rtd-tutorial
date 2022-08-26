@@ -37,7 +37,7 @@ y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\beta & \\sim \\operatorname{Normal}(0,1) \\\\
 \\sigma & \\sim \\operatorname{Exponential}(1)
 \\end{aligned}
-  :label: eq:pfx
+   :label: eq:pfx
 
 Read Blaine's tutorial on readthedocs here:
 
