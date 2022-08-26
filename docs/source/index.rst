@@ -1,7 +1,7 @@
 Blaine's Read-the-Docs Tutorial
 ===============================
 
-Log into into your read the docs account.
+Log into into your Read-the-Docs account.
 Then import your new project from a GitHub repo
 or select an existing project.
 
