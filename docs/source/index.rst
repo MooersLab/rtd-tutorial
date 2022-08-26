@@ -29,7 +29,6 @@ which takes LaTeX multi-line equations in special math blocks.
 The backslashes have to to escaped and the double $$ removed.
 
 .. math::
- 
 \\begin{aligned}
 y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\mu_{i} &=\\alpha+\\beta x_{i} \\\\
@@ -41,12 +40,12 @@ y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 
 
 .. math::
-  \begin{align}
-        100 + x &= y    \\    
-        \frac{y}{x} &\ge 1.3  \\
+\\begin{aligned}
+        100 + x &= y    \\\\    
+        \\frac{y}{x} &\\ge 1.3  \\\\
         (100+x)-(100+x)z &= y 
-  \end{align}
-  :label: abc
+  \\end{aligned}
+ :label: abc
 
 
 Read Blaine's tutorial on readthedocs here:
