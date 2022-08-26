@@ -39,8 +39,8 @@ The backslashes have to to escaped and the double $$ removed.
            
 Here is a single line equation.    
 
- .. math:: \beta \sim \text{Poisson}(\lambda=5)
- :label: beta_prior 
+ .. math:: \\beta \\sim \\text{Poisson}(\\lambda=5)
+     :label: beta_prior 
 
 
 An aligned multiple-line display expression follows:
