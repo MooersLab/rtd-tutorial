@@ -26,7 +26,6 @@ which takes LaTeX multi-line equations in special math blocks.
 The backslashes have to to escaped and the double $$ removed.
 
 .. math::
-
 \\begin{aligned}
 y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\mu_{i} &=\\alpha+\\beta x_{i} \\\\
@@ -34,7 +33,7 @@ y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\beta & \\sim \\operatorname{Normal}(0,1) \\\\
 \\sigma & \\sim \\operatorname{Exponential}(1)
 \\end{aligned}
-
+:label: abc
 
 Read the tutorial here:
 
