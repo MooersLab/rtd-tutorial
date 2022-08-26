@@ -28,6 +28,12 @@ The document is written in ReStructuredText (.rst),
 which takes LaTeX multi-line equations in special math blocks.
 The backslashes have to to escaped and the double $$ removed.
 
+
+.. math:: \beta \sim \text{Poisson}(\lambda=5)
+:label: beta_prior
+
+An aligned multiple-line display expression follows:
+
 .. math::
 
 \\begin{aligned}
@@ -36,8 +42,10 @@ y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\alpha & \\sim \\operatorname{Normal}(0,100) \\\\
 \\beta & \\sim \\operatorname{Normal}(0,1) \\\\
 \\sigma & \\sim \\operatorname{Exponential}(1)
-\\end{aligned}
-   :label: pfx
+\\end{aligned} 
+:label: pfx
+
+An aligned multiple-line display expression follows:
 
 
 .. math::
@@ -47,7 +55,7 @@ y_{i} & \\sim \\operatorname{Normal}\\left(\\mu_{i}, \\sigma\\right) \\\\
 \\frac{y}{x} &\\ge 1.3  \\\\
 (100+x)-(100+x)z &= y 
 \\end{aligned}
- :label: abc
+:label: abc
 
 
 Read Blaine's tutorial on readthedocs here:
