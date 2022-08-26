@@ -10,7 +10,8 @@ you have to go through a number of steps. It is probably
 best to prepare the bulk of the docment in an editor
 that is configured for handling ReStructuredText files. 
 Otherwise, you will get a alot of practice cycling 
-through the following steps:
+through the following steps. This will increase the 
+chance of making mistakes and learning from them:
 
 - Add a commit message.
 - Click on 'Create a new branch for this commit and start a pull request'. 
