@@ -12,7 +12,8 @@ you have to go through several steps:
 - Click on 'Propose Changes'. This action takes you to a new page.
 - Click on 'Create pull requst'. A message in yellow appears about check in progress.
 - When the checks are done, the yellow text changes to green. Click on 'merge pull request'.
-- Navigate to the github repo page. Click on the browser's refresh button to get view.
+- Navigate to the github repo page. The text will be updated but not the math.
+- Click on the browser's refresh button to get view.
 
 The document is written in ReStructuredText (.rst), 
 which takes LaTeX multi-line equations in special math blocks.
