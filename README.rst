@@ -4,7 +4,15 @@ Template for the Read the Docs tutorial
 This GitHub template includes fictional Python library
 with some basic Sphinx docs.
 
-Lumache has its documentation hosted on Read the Docs.
+You can edit the README.st document on GitHub and then
+you have to go through several steps:
+
+- Add a commit message.
+- Click on 'Create a new branch for this commit and start a pull request'. 
+- Click on 'Propose Changes'. This action takes you to a new page.
+- Click on 'Create pull requst'. A message in yellow appears about check in progress.
+- When the checks are done, the yellow text changes to green. Click on 'merge pull request'.
+- Navigate to the github repo page. Click on the browser's refresh button to get view.
 
 The document is written in ReStructuredText (.rst), 
 which takes LaTeX multi-line equations in special math blocks.
