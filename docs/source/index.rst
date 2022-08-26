@@ -31,7 +31,7 @@ The backslashes have to to escaped and the double $$ removed.
 
  .. math::
    :nowrap:
-
+   :label: two_lines 
    \begin{eqnarray}
       y    & = & ax^2 + bx + c \\
       f(x) & = & x^2 + 2xy + y^2
@@ -39,9 +39,9 @@ The backslashes have to to escaped and the double $$ removed.
            
 Here is a single line equation.    
 
- .. math:: \\beta \\sim \\text{Poisson}(\\lambda=5)
+ .. math:: 
      :label: beta_prior 
-
+ \\beta \\sim \\text{Poisson}(\\lambda=5)
 
 An aligned multiple-line display expression follows:
 
