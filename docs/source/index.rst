@@ -30,7 +30,7 @@ The backslashes have to to escaped and the double $$ removed.
 
 
 .. math:: \beta \sim \text{Poisson}(\lambda=5)
- :label: beta_prior
+:label: beta_prior
 
 An aligned multiple-line display expression follows:
 
