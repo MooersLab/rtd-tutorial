@@ -5,7 +5,7 @@ Log into into your read the docs account.
 Then import your new project from a GitHub repo
 or select an existing project.
 
-You can edit the README.st document on GitHub and then
+You can edit the README.rst document on GitHub and then
 you have to go through a number of steps. It is probably
 best to prepare the bulk of the docment in an editor
 that is configured for handling ReStructuredText files. 
