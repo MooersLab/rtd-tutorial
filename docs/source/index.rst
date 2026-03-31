@@ -27,6 +27,13 @@ If you hit `commit changes` in step 2, just make another edit and hit
 The document is written in ReStructuredText (.rst), 
 which takes LaTeX multi-line equations   in special math blocks.
 The backslashes have to to escaped and the double $$ removed.
+The math gets rendered on GitHub and in the html version of 
+read-the-docs.
+
+I ran into several problems:
+
+- the math is not rendered when exported to a PDF
+- the number for the equation appears above a mutli-line equation.
 
 
  .. math::
@@ -88,5 +95,6 @@ Contents
 
  .. toctree::
 
+   introduction
    usage
    api
